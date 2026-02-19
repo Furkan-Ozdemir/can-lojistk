@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Logistics - İşinizi Dünyaya Bağlıyoruz</title>
+    <meta
+      name="description"
+      content="Hava, Deniz, Kara ve Depolama için uçtan uca lojistik çözümleri. Hızlı, güvenilir ve küresel taşımacılık hizmetleri."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__logo">
+            <a href="#hero" class="logo-link">
+              <i class="fas fa-globe-americas logo-icon"></i>
+              <span class="logo-text">Global<strong>Logistics</strong></span>
+            </a>
+          </div>
+
+          <ul class="nav__menu" id="navMenu">
+            <li class="nav__item">
+              <a href="#about" class="nav__link" data-i18n="nav_about"
+                >Hakkımızda</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link" data-i18n="nav_services"
+                >Hizmetler</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link" data-i18n="nav_contact"
+                >İletişim</a
+              >
+            </li>
+          </ul>
+
+          <div class="nav__actions">
+            <div class="language-selector">
+              <select class="language-select" id="languageSelect">
+                <option value="tr" selected>TR</option>
+                <option value="en">EN</option>
+              </select>
+            </div>
+            <button class="btn btn--outline btn--track" id="trackCargoBtn">
+              <i class="fas fa-search"></i>
+              <span data-i18n="btn_track">Kargo Takip</span>
+            </button>
+            <button class="btn btn--primary btn--quote" id="getQuoteBtn">
+              <i class="fas fa-calculator"></i>
+              <span data-i18n="btn_quote">Teklif Al</span>
+            </button>
+          </div>
+
+          <button class="nav__toggle" id="navToggle" aria-label="Menu">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero__background">
+        <img
+          src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920&q=80"
+          alt="Logistics Background"
+          class="hero__img"
+        />
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title" data-i18n="hero_title">
+            İşinizi Dünyaya Bağlıyoruz
+          </h1>
+          <p class="hero__subtitle" data-i18n="hero_subtitle">
+            Hava, Deniz, Kara ve Depolama için uçtan uca lojistik çözümleri
+          </p>
+          <div class="hero__actions">
+            <a
+              href="#services"
+              class="btn btn--primary btn--large"
+              data-i18n="hero_btn_services"
+              >Hizmetleri Keşfet</a
+            >
+            <a
+              href="#quote"
+              class="btn btn--secondary btn--large"
+              data-i18n="hero_btn_quote"
+              >Teklif Al</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Quote Form -->
+    <section class="quote-form" id="quote">
+      <div class="container">
+        <div class="quote-form__card">
+          <h2 class="quote-form__title" data-i18n="quote_title">
+            Hızlı Teklif Alın
+          </h2>
+          <p class="quote-form__subtitle" data-i18n="quote_subtitle">
+            Bilgilerinizi doldurun, 24 saat içinde size dönüş yapalım
+          </p>
+
+          <form class="quote-form__form" id="quoteForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label" data-i18n="form_name"
+                  >Ad Soyad *</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label" data-i18n="form_email"
+                  >E-posta Adresi *</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone" class="form-label" data-i18n="form_phone"
+                  >Telefon Numarası *</label
+                >
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="form-input"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label
+                for="serviceType"
+                class="form-label"
+                data-i18n="form_service_type"
+                >Hizmet Türü *</label
+              >
+              <select
+                id="serviceType"
+                name="serviceType"
+                class="form-select"
+                required
+              >
+                <option value="" data-i18n="form_select_service">
+                  Hizmet seçiniz
+                </option>
+                <option value="air-freight" data-i18n="service_air">
+                  Hava Taşımacılığı
+                </option>
+                <option value="sea-freight" data-i18n="service_sea">
+                  Deniz Taşımacılığı
+                </option>
+                <option value="land-freight" data-i18n="service_land">
+                  Kara Taşımacılığı
+                </option>
+                <option value="project-cargo" data-i18n="service_project">
+                  Proje Taşımacılığı
+                </option>
+                <option value="warehousing" data-i18n="service_warehouse">
+                  Depolama
+                </option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">
+              <i class="fas fa-paper-plane"></i>
+              <span data-i18n="form_submit">Teklif Talebi Gönder</span>
+            </button>
+          </form>
+
+          <div class="form-success" id="formSuccess" style="display: none">
+            <i class="fas fa-check-circle"></i>
+            <p data-i18n="form_success">
+              Teşekkürler! Teklif talebiniz başarıyla gönderildi. 24 saat içinde
+              sizinle iletişime geçeceğiz.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="services_title">
+            Hizmetlerimiz
+          </h2>
+          <p class="section-subtitle" data-i18n="services_subtitle">
+            İhtiyaçlarınıza özel kapsamlı lojistik çözümleri
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-plane"></i>
+            </div>
+            <h3 class="service-title" data-i18n="service_air">
+              Hava Taşımacılığı
+            </h3>
+            <p class="service-description" data-i18n="service_air_desc">
+              Zamana duyarlı gönderileriniz için hızlı ve güvenilir hava kargo
+              çözümleri.
+            </p>
+            <a href="#" class="service-link" data-i18n="learn_more"
+              >Daha Fazla <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-ship"></i>
+            </div>
+            <h3 class="service-title" data-i18n="service_sea">
+              Deniz Taşımacılığı
+            </h3>
+            <p class="service-description" data-i18n="service_sea_desc">
+              Büyük ve ağır kargo gönderileri için uygun maliyetli deniz
+              taşımacılığı hizmetleri.
+            </p>
+            <a href="#" class="service-link" data-i18n="learn_more"
+              >Daha Fazla <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-truck"></i>
+            </div>
+            <h3 class="service-title" data-i18n="service_land">
+              Kara Taşımacılığı
+            </h3>
+            <p class="service-description" data-i18n="service_land_desc">
+              Yurt içi ve uluslararası güzergahlarda verimli karayolu
+              taşımacılığı çözümleri.
+            </p>
+            <a href="#" class="service-link" data-i18n="learn_more"
+              >Daha Fazla <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h3 class="service-title" data-i18n="service_project">
+              Proje Taşımacılığı
+            </h3>
+            <p class="service-description" data-i18n="service_project_desc">
+              Büyük boyutlu, ağır yük ve projeye özel kargolar için uzman
+              taşımacılık.
+            </p>
+            <a href="#" class="service-link" data-i18n="learn_more"
+              >Daha Fazla <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-warehouse"></i>
+            </div>
+            <h3 class="service-title" data-i18n="service_warehouse">
+              Depolama
+            </h3>
+            <p class="service-description" data-i18n="service_warehouse_desc">
+              Modern envanter yönetimi ile güvenli depolama ve dağıtım
+              çözümleri.
+            </p>
+            <a href="#" class="service-link" data-i18n="learn_more"
+              >Daha Fazla <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="why_title">
+            Neden Bizi Tercih Etmelisiniz
+          </h2>
+          <p class="section-subtitle" data-i18n="why_subtitle">
+            Küresel lojistikte güvenilir iş ortağınız
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-item">
+            <div class="value-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h3 class="value-title" data-i18n="value_fast">Hızlı</h3>
+            <p class="value-description" data-i18n="value_fast_desc">
+              Kısa teslim süreleri ve hızlandırılmış gönderim seçenekleri
+            </p>
+          </div>
+
+          <div class="value-item">
+            <div class="value-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3 class="value-title" data-i18n="value_ontime">Zamanında</h3>
+            <p class="value-description" data-i18n="value_ontime_desc">
+              Tüm hizmet türlerinde %95+ zamanında teslimat oranı
+            </p>
+          </div>
+
+          <div class="value-item">
+            <div class="value-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="value-title" data-i18n="value_reliable">Güvenilir</h3>
+            <p class="value-description" data-i18n="value_reliable_desc">
+              Dünya genelinde binlerce işletmenin güvendiği firma
+            </p>
+          </div>
+
+          <div class="value-item">
+            <div class="value-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h3 class="value-title" data-i18n="value_global">Küresel Ağ</h3>
+            <p class="value-description" data-i18n="value_global_desc">
+              50'den fazla ülkeyi kapsayan geniş ağ
+            </p>
+          </div>
+        </div>
+
+        <div class="stats-container">
+          <div class="stat-item">
+            <div class="stat-number" data-target="1000">0</div>
+            <div class="stat-label" data-i18n="stat_deliveries">
+              Başarılı Teslimat
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="50">0</div>
+            <div class="stat-label" data-i18n="stat_countries">Ülke</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="15">0</div>
+            <div class="stat-label" data-i18n="stat_experience">
+              Yıllık Deneyim
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="98">0</div>
+            <div class="stat-label" data-i18n="stat_satisfaction">
+              Müşteri Memnuniyeti %
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <div class="footer-logo">
+              <a href="#hero" class="logo-link logo-link--footer">
+                <i class="fas fa-globe-americas logo-icon"></i>
+                <span class="logo-text">Global<strong>Logistics</strong></span>
+              </a>
+            </div>
+            <p class="footer-description" data-i18n="footer_desc">
+              Global Logistics, kapsamlı taşımacılık ve lojistik çözümleri için
+              güvenilir iş ortağınızdır. Dünya genelinde işletmeleri güvenilir,
+              verimli ve uygun maliyetli nakliye hizmetleriyle buluşturuyoruz.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-title" data-i18n="footer_quick_links">
+              Hızlı Bağlantılar
+            </h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#services" data-i18n="nav_services">Hizmetler</a>
+              </li>
+              <li><a href="#about" data-i18n="nav_about">Hakkımızda</a></li>
+              <li><a href="#contact" data-i18n="nav_contact">İletişim</a></li>
+              <li><a href="#faq" data-i18n="footer_faq">SSS</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-title" data-i18n="footer_contact">
+              İletişim Bilgileri
+            </h4>
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span data-i18n="footer_address"
+                  >123 Lojistik Caddesi, İş Merkezi, İstanbul, Türkiye</span
+                >
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+90 212 555 0123</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>info@globallogistics.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-bottom-content">
+            <p class="copyright" data-i18n="footer_copyright">
+              &copy; 2024 Global Logistics. Tüm hakları saklıdır.
+            </p>
+            <div class="legal-links">
+              <a href="#privacy" data-i18n="footer_privacy"
+                >Gizlilik Politikası</a
+              >
+              <a href="#terms" data-i18n="footer_terms">Kullanım Koşulları</a>
+              <a href="#cookies" data-i18n="footer_cookies">Çerez Politikası</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
