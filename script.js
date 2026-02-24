@@ -1,110 +1,5 @@
 // Translation Dictionary
 const translations = {
-  tr: {
-    // Navigation
-    nav_about: "Hakkımızda",
-    nav_services: "Hizmetler",
-    nav_contact: "İletişim",
-    btn_track: "Kargo Takip",
-    btn_quote: "Teklif Al",
-
-    // Hero
-    hero_title: "İşinizi Dünyaya Bağlıyoruz",
-    hero_subtitle:
-      "Hava, Deniz, Kara ve Depolama için uçtan uca lojistik çözümleri",
-    hero_btn_services: "Hizmetleri Keşfet",
-    hero_btn_quote: "Teklif Al",
-
-    // Quote Form
-    quote_title: "Hızlı Teklif Alın",
-    quote_subtitle: "Bilgilerinizi doldurun, 24 saat içinde size dönüş yapalım",
-    form_name: "Ad Soyad *",
-    form_email: "E-posta Adresi *",
-    form_phone: "Telefon Numarası *",
-    form_service_type: "Hizmet Türü *",
-    form_select_service: "Hizmet seçiniz",
-    form_submit: "Teklif Talebi Gönder",
-    form_success:
-      "Teşekkürler! Teklif talebiniz başarıyla gönderildi. 24 saat içinde sizinle iletişime geçeceğiz.",
-
-    // Services
-    services_title: "Hizmetlerimiz",
-    services_subtitle: "İhtiyaçlarınıza özel kapsamlı lojistik çözümleri",
-    service_air: "Hava Taşımacılığı",
-    service_air_desc:
-      "Zamana duyarlı gönderileriniz için hızlı ve güvenilir hava kargo çözümleri.",
-    service_sea: "Deniz Taşımacılığı",
-    service_sea_desc:
-      "Büyük ve ağır kargo gönderileri için uygun maliyetli deniz taşımacılığı hizmetleri.",
-    service_land: "Kara Taşımacılığı",
-    service_land_desc:
-      "Yurt içi ve uluslararası güzergahlarda verimli karayolu taşımacılığı çözümleri.",
-    service_project: "Proje Taşımacılığı",
-    service_project_desc:
-      "Büyük boyutlu, ağır yük ve projeye özel kargolar için uzman taşımacılık.",
-    service_warehouse: "Depolama",
-    service_warehouse_desc:
-      "Modern envanter yönetimi ile güvenli depolama ve dağıtım çözümleri.",
-    learn_more: "Daha Fazla",
-
-    // Why Choose Us
-    why_title: "Neden Bizi Tercih Etmelisiniz",
-    why_subtitle: "Küresel lojistikte güvenilir iş ortağınız",
-    value_fast: "Hızlı",
-    value_fast_desc:
-      "Kısa teslim süreleri ve hızlandırılmış gönderim seçenekleri",
-    value_ontime: "Zamanında",
-    value_ontime_desc: "Tüm hizmet türlerinde %95+ zamanında teslimat oranı",
-    value_reliable: "Güvenilir",
-    value_reliable_desc: "Dünya genelinde binlerce işletmenin güvendiği firma",
-    value_global: "Küresel Ağ",
-    value_global_desc: "50'den fazla ülkeyi kapsayan geniş ağ",
-
-    // Stats
-    stat_deliveries: "Başarılı Teslimat",
-    stat_countries: "Ülke",
-    stat_experience: "Yıllık Deneyim",
-    stat_satisfaction: "Müşteri Memnuniyeti %",
-
-    // Footer
-    footer_desc:
-      "Global Logistics, kapsamlı taşımacılık ve lojistik çözümleri için güvenilir iş ortağınızdır. Dünya genelinde işletmeleri güvenilir, verimli ve uygun maliyetli nakliye hizmetleriyle buluşturuyoruz.",
-    footer_quick_links: "Hızlı Bağlantılar",
-    footer_faq: "SSS",
-    footer_contact: "İletişim Bilgileri",
-    footer_address: "123 Lojistik Caddesi, İş Merkezi, İstanbul, Türkiye",
-    footer_copyright: "© 2024 Global Logistics. Tüm hakları saklıdır.",
-    footer_privacy: "Gizlilik Politikası",
-    footer_terms: "Kullanım Koşulları",
-    footer_cookies: "Çerez Politikası",
-
-    // Tracking Modal
-    track_title: "Kargonuzu Takip Edin",
-    track_desc:
-      "Gönderi durumunuzu gerçek zamanlı takip etmek için takip numaranızı girin.",
-    track_placeholder: "Takip numarasını girin...",
-    track_btn: "Takip Et",
-    track_info: "Takip Bilgileri",
-    track_received: "Gönderi Teslim Alındı",
-    track_received_desc: "Paket çıkış tesisinde teslim alındı",
-    track_transit: "Yolda",
-    track_transit_desc: "Paket varış noktasına doğru yolda",
-    track_delivery: "Dağıtıma Çıktı",
-    track_delivery_desc: "Paket dağıtıma çıktı",
-    track_expected: "Tahmini",
-
-    // Validation Messages
-    val_name_required: "Lütfen adınızı ve soyadınızı girin",
-    val_name_min: "İsim en az 2 karakter olmalıdır",
-    val_email_required: "Lütfen e-posta adresinizi girin",
-    val_email_invalid: "Lütfen geçerli bir e-posta adresi girin",
-    val_phone_required: "Lütfen telefon numaranızı girin",
-    val_phone_invalid: "Lütfen geçerli bir telefon numarası girin",
-    val_service_required: "Lütfen bir hizmet türü seçin",
-
-    // Notifications
-    lang_changed: "Dil Türkçe olarak değiştirildi",
-  },
   en: {
     // Navigation
     nav_about: "About Us",
@@ -114,11 +9,128 @@ const translations = {
     btn_quote: "Get a Quote",
 
     // Hero
-    hero_title: "Connecting Your Business to the World",
+    hero_title: "Driving Global Trade Through Integrated Logistics",
     hero_subtitle:
-      "End-to-end logistics solutions for Air, Sea, Land, and Warehousing",
+      "Integrated supply chain solutions that connect businesses to markets worldwide — air, sea, and land.",
     hero_btn_services: "Explore Services",
     hero_btn_quote: "Get a Quote",
+
+    // About
+    about_title: "About Us",
+    about_subtitle: "Your trusted global logistics partner",
+    about_intro_1:
+      "COMO Logistics is a global logistics partner delivering integrated supply chain solutions that connect businesses to markets worldwide. We specialize in complex international logistics operations, enabling the seamless movement of goods across borders through reliable transportation, advanced planning, and operational excellence.",
+    about_intro_2:
+      "With a strong international presence and a commitment to precision, we help customers navigate the challenges of global trade while maintaining efficiency, visibility, and control at every stage of the supply chain.",
+    about_tab_services: "Integrated Services",
+    about_tab_network: "Global Network",
+    about_tab_value: "Customer Value",
+    about_tab_sustainability: "Sustainability",
+    about_tab_vision: "Our Vision",
+    about_services_title: "Integrated International Logistics Services",
+    about_services_intro:
+      "Our service portfolio is designed to meet the demands of global commerce and evolving supply chains:",
+    about_svc_freight:
+      "Global Freight Forwarding — Air, ocean, and multimodal transportation solutions optimized for reliability and performance.",
+    about_svc_transport:
+      "International Transport Management — End-to-end coordination of cross-border shipments across key trade lanes.",
+    about_svc_warehouse:
+      "Global Warehousing & Distribution — Strategically located facilities supporting international inventory management and fulfillment.",
+    about_svc_supply:
+      "Supply Chain Solutions — Data-driven planning, monitoring, and optimization for enhanced operational efficiency.",
+    about_svc_customs:
+      "Customs & Trade Compliance — Expert management of global regulations, documentation, and risk mitigation.",
+    about_svc_project:
+      "Project & Specialized Logistics — Tailored solutions for complex, oversized, or high-value international cargo.",
+    about_services_outro:
+      "We combine industry expertise, digital technology, and operational discipline to deliver consistent results across global markets.",
+    about_network_title: "International Partners & Worldwide Network",
+    about_network_intro:
+      "Our global network is built on strong partnerships with international carriers, regional logistics specialists, port operators, and supply chain stakeholders. This collaborative ecosystem enables us to provide reliable coverage across major trade routes and emerging markets.",
+    about_network_deliver: "Through this international network, we deliver:",
+    about_net_multi: "Seamless multi-country logistics execution",
+    about_net_quality: "Standardized global service quality",
+    about_net_local: "Local expertise backed by global coordination",
+    about_net_visibility: "Enhanced visibility and supply chain resilience",
+    about_network_outro:
+      "Our network-driven approach ensures that customers benefit from both global scale and regional insight.",
+    about_value_title: "Delivering Customer Value",
+    about_value_intro:
+      "At COMO Logistics, we view logistics as a strategic advantage — not just a service. Our focus is on creating measurable value through performance-driven solutions.",
+    about_value_rely: "Our customers rely on us for:",
+    about_val_excellence:
+      "Operational Excellence — Consistent execution and high service reliability",
+    about_val_visibility:
+      "Supply Chain Visibility — Transparent tracking and proactive communication",
+    about_val_scalable:
+      "Scalable Solutions — Logistics strategies aligned with business growth",
+    about_val_risk:
+      "Risk Management — Secure, compliant, and resilient global operations",
+    about_val_partnership:
+      "Strategic Partnership — Long-term collaboration focused on shared success",
+    about_value_outro:
+      "We work closely with customers to transform logistics into a competitive advantage in global markets.",
+    about_sustain_title: "Sustainability & Green Logistics",
+    about_sustain_intro:
+      "Sustainability is a core pillar of our global strategy. We are committed to reducing the environmental impact of international logistics while supporting responsible growth across the supply chain.",
+    about_sustain_key: "Key initiatives include:",
+    about_sus_carbon:
+      "Network and route optimization to reduce carbon emissions",
+    about_sus_fuel:
+      "Collaboration with carriers investing in alternative fuels and energy-efficient fleets",
+    about_sus_digital:
+      "Digitalization of processes to reduce paper usage and operational waste",
+    about_sus_packaging:
+      "Sustainable packaging and resource optimization programs",
+    about_sus_standards:
+      "Continuous improvement aligned with global environmental standards",
+    about_sustain_outro:
+      "By integrating sustainable practices into our logistics operations, we help customers achieve their environmental goals while maintaining efficiency and reliability.",
+    about_vision_title: "Our Vision",
+    about_vision_text:
+      "To be recognized as a leading global logistics partner — delivering integrated, sustainable, and innovative supply chain solutions that enable international trade and long-term growth.",
+    about_mission_text:
+      "Our mission is simple: to make international logistics efficient, transparent, and dependable for every customer we serve.",
+
+    // Stats
+    stat_countries: "Countries",
+    stat_satisfaction: "Customer Satisfaction",
+    global_reach_tagline: "Connecting continents, delivering worldwide",
+
+    // Services
+    services_title: "Our Services",
+    services_subtitle:
+      "Integrated international transportation solutions designed to support global supply chains with reliability, efficiency, and transparency.",
+    service_air: "Air Cargo",
+    service_air_desc:
+      "We offer fast and reliable air cargo solutions for time-sensitive shipments across international markets. Our global airline partnerships and optimized routing allow us to ensure secure handling, reduced transit times, and consistent delivery performance.",
+    service_sea: "Maritime Shipments",
+    service_sea_desc:
+      "We provide comprehensive maritime shipping solutions that connect major ports worldwide, supporting efficient and cost-effective global freight movement. Through strategic partnerships with leading carriers, we offer reliable ocean freight options tailored to customer requirements.",
+    service_land: "Road Transportation",
+    service_land_desc:
+      "We offer international road transportation services that ensure flexible and efficient cargo movement across Europe and cross-border routes. Our network of trusted transport partners allows us to deliver dependable ground logistics aligned with global supply chains.",
+    air_feat_1: "Priority and express shipping options",
+    air_feat_2: "Consolidated and direct air freight solutions",
+    air_feat_3: "Real-time tracking and shipment visibility",
+    air_feat_4: "Specialized handling for sensitive or high-value cargo",
+    air_routes_title: "Our Strongest Routes",
+    air_import_title: "Import to Turkey (IST-ADB)",
+    air_import_routes:
+      "China (PVG, PEK, SZX, CAN) · Japan (HND, NRT, CTS) · Taiwan (TPE) · Korea (ICN) · America (JFK, ATL, DEN) · Dubai (DXB)",
+    air_export_title: "Export from Turkey (IST-ADB)",
+    air_export_routes:
+      "Dubai (DXB, DWC) · England (BHX, LHR, MAN) · Germany (MUC, HAM, BER, DUS) · America (JFK, ATL, DEN) · Canada (YUL, YYZ) · Kenya (NBO) · Azerbaijan (BAK) · Mexico (MEX, MTY)",
+    sea_feat_1:
+      "Full Container Load (FCL) and Less than Container Load (LCL) services",
+    sea_feat_2: "Global port-to-port and door-to-door coordination",
+    sea_feat_3: "Cargo planning and documentation management",
+    sea_feat_4: "Flexible schedules aligned with international trade routes",
+    road_feat_1: "Cross-border freight transportation across Europe",
+    road_feat_2:
+      "Full Truck Load (FTL) and Less than Truck Load (LTL) solutions",
+    road_feat_3: "Reliable pickup and delivery coordination",
+    road_feat_4: "Integrated tracking and route optimization",
 
     // Quote Form
     quote_title: "Get a Quick Quote",
@@ -133,56 +145,15 @@ const translations = {
     form_success:
       "Thank you! Your quote request has been submitted successfully. We'll contact you within 24 hours.",
 
-    // Services
-    services_title: "Our Services",
-    services_subtitle:
-      "Comprehensive logistics solutions tailored to your needs",
-    service_air: "Air Freight",
-    service_air_desc:
-      "Fast and reliable air cargo solutions for time-sensitive shipments worldwide.",
-    service_sea: "Sea Freight",
-    service_sea_desc:
-      "Cost-effective ocean freight services for large and heavy cargo shipments.",
-    service_land: "Land Freight",
-    service_land_desc:
-      "Efficient ground transportation solutions across domestic and international routes.",
-    service_project: "Project Cargo",
-    service_project_desc:
-      "Specialized handling for oversized, heavy-lift, and project-specific cargo.",
-    service_warehouse: "Warehousing",
-    service_warehouse_desc:
-      "Secure storage and distribution solutions with modern inventory management.",
-    learn_more: "Learn More",
-
-    // Why Choose Us
-    why_title: "Why Choose Us",
-    why_subtitle: "Your trusted partner in global logistics",
-    value_fast: "Fast",
-    value_fast_desc: "Quick turnaround times and expedited shipping options",
-    value_ontime: "On-Time",
-    value_ontime_desc: "95%+ on-time delivery rate across all service types",
-    value_reliable: "Reliable",
-    value_reliable_desc: "Trusted by thousands of businesses worldwide",
-    value_global: "Global Network",
-    value_global_desc: "Extensive network spanning 50+ countries",
-
-    // Stats
-    stat_deliveries: "Successful Deliveries",
-    stat_countries: "Countries",
-    stat_experience: "Years Experience",
-    stat_satisfaction: "Customer Satisfaction %",
-
     // Footer
     footer_desc:
-      "Global Logistics is your trusted partner for comprehensive freight forwarding and logistics solutions. We connect businesses worldwide with reliable, efficient, and cost-effective shipping services.",
+      "COMO Logistics is your trusted partner for integrated supply chain solutions. We connect businesses to markets worldwide with reliable, efficient, and innovative logistics services.",
     footer_quick_links: "Quick Links",
-    footer_faq: "FAQ",
     footer_contact: "Contact Info",
-    footer_address: "123 Logistics Street, Business District, Istanbul, Turkey",
-    footer_copyright: "© 2024 Global Logistics. All rights reserved.",
+    footer_address: "Istanbul, Turkey",
+    footer_copyright: "© 2024 COMO Logistics. All rights reserved.",
     footer_privacy: "Privacy Policy",
     footer_terms: "Terms of Service",
-    footer_cookies: "Cookie Policy",
 
     // Tracking Modal
     track_title: "Track Your Cargo",
@@ -211,10 +182,192 @@ const translations = {
     // Notifications
     lang_changed: "Language changed to English",
   },
+  tr: {
+    // Navigation
+    nav_about: "Hakkımızda",
+    nav_services: "Hizmetler",
+    nav_contact: "İletişim",
+    btn_track: "Kargo Takip",
+    btn_quote: "Teklif Al",
+
+    // Hero
+    hero_title: "Entegre Lojistik ile Küresel Ticareti Yönlendiriyoruz",
+    hero_subtitle:
+      "İşletmeleri dünya pazarlarına bağlayan entegre tedarik zinciri çözümleri — hava, deniz ve kara.",
+    hero_btn_services: "Hizmetleri Keşfet",
+    hero_btn_quote: "Teklif Al",
+
+    // About
+    about_title: "Hakkımızda",
+    about_subtitle: "Güvenilir küresel lojistik ortağınız",
+    about_intro_1:
+      "COMO Logistics, işletmeleri dünya pazarlarına bağlayan entegre tedarik zinciri çözümleri sunan küresel bir lojistik ortağıdır. Güvenilir taşımacılık, ileri planlama ve operasyonel mükemmellik ile sınır ötesi malların sorunsuz hareketini sağlayan karmaşık uluslararası lojistik operasyonlarında uzmanız.",
+    about_intro_2:
+      "Güçlü uluslararası varlığımız ve hassasiyete olan bağlılığımızla, tedarik zincirinin her aşamasında verimlilik, görünürlük ve kontrol sağlayarak müşterilerimizin küresel ticaret zorluklarını aşmalarına yardımcı oluyoruz.",
+    about_tab_services: "Entegre Hizmetler",
+    about_tab_network: "Küresel Ağ",
+    about_tab_value: "Müşteri Değeri",
+    about_tab_sustainability: "Sürdürülebilirlik",
+    about_tab_vision: "Vizyonumuz",
+    about_services_title: "Entegre Uluslararası Lojistik Hizmetleri",
+    about_services_intro:
+      "Hizmet portföyümüz, küresel ticaretin ve gelişen tedarik zincirlerinin gereksinimlerini karşılamak üzere tasarlanmıştır:",
+    about_svc_freight:
+      "Küresel Yük Taşımacılığı — Güvenilirlik ve performans için optimize edilmiş hava, deniz ve multimodal taşımacılık çözümleri.",
+    about_svc_transport:
+      "Uluslararası Taşıma Yönetimi — Ana ticaret güzergahlarında sınır ötesi gönderilerin uçtan uca koordinasyonu.",
+    about_svc_warehouse:
+      "Küresel Depolama & Dağıtım — Uluslararası envanter yönetimi ve sipariş karşılamayı destekleyen stratejik konumlu tesisler.",
+    about_svc_supply:
+      "Tedarik Zinciri Çözümleri — Gelişmiş operasyonel verimlilik için veri odaklı planlama, izleme ve optimizasyon.",
+    about_svc_customs:
+      "Gümrük & Ticaret Uyumu — Küresel düzenlemeler, dokümantasyon ve risk azaltma konusunda uzman yönetim.",
+    about_svc_project:
+      "Proje & Özel Lojistik — Karmaşık, büyük boyutlu veya yüksek değerli uluslararası kargolar için özelleştirilmiş çözümler.",
+    about_services_outro:
+      "Küresel pazarlarda tutarlı sonuçlar sunmak için sektör uzmanlığını, dijital teknolojiyi ve operasyonel disiplini bir araya getiriyoruz.",
+    about_network_title: "Uluslararası Ortaklar & Dünya Çapında Ağ",
+    about_network_intro:
+      "Küresel ağımız, uluslararası taşıyıcılar, bölgesel lojistik uzmanları, liman operatörleri ve tedarik zinciri paydaşlarıyla güçlü ortaklıklar üzerine kurulmuştur. Bu işbirlikçi ekosistem, ana ticaret güzergahları ve gelişmekte olan pazarlarda güvenilir kapsam sağlamamıza olanak tanır.",
+    about_network_deliver: "Bu uluslararası ağ aracılığıyla sunuyoruz:",
+    about_net_multi: "Sorunsuz çok ülkeli lojistik yürütme",
+    about_net_quality: "Standartlaştırılmış küresel hizmet kalitesi",
+    about_net_local: "Küresel koordinasyonla desteklenen yerel uzmanlık",
+    about_net_visibility:
+      "Gelişmiş görünürlük ve tedarik zinciri dayanıklılığı",
+    about_network_outro:
+      "Ağ odaklı yaklaşımımız, müşterilerin hem küresel ölçekten hem de bölgesel içgörüden faydalanmasını sağlar.",
+    about_value_title: "Müşteri Değeri Sunma",
+    about_value_intro:
+      "COMO Logistics'te lojistiği sadece bir hizmet değil, stratejik bir avantaj olarak görüyoruz. Odağımız, performans odaklı çözümlerle ölçülebilir değer yaratmaktır.",
+    about_value_rely: "Müşterilerimiz bize şunlar için güvenir:",
+    about_val_excellence:
+      "Operasyonel Mükemmellik — Tutarlı uygulama ve yüksek hizmet güvenilirliği",
+    about_val_visibility:
+      "Tedarik Zinciri Görünürlüğü — Şeffaf takip ve proaktif iletişim",
+    about_val_scalable:
+      "Ölçeklenebilir Çözümler — İş büyümesiyle uyumlu lojistik stratejileri",
+    about_val_risk:
+      "Risk Yönetimi — Güvenli, uyumlu ve dayanıklı küresel operasyonlar",
+    about_val_partnership:
+      "Stratejik Ortaklık — Ortak başarıya odaklanan uzun vadeli işbirliği",
+    about_value_outro:
+      "Küresel pazarlarda lojistiği rekabet avantajına dönüştürmek için müşterilerimizle yakın çalışıyoruz.",
+    about_sustain_title: "Sürdürülebilirlik & Yeşil Lojistik",
+    about_sustain_intro:
+      "Sürdürülebilirlik, küresel stratejimizin temel bir direğidir. Tedarik zinciri genelinde sorumlu büyümeyi desteklerken uluslararası lojistiğin çevresel etkisini azaltmaya kararlıyız.",
+    about_sustain_key: "Temel girişimler:",
+    about_sus_carbon:
+      "Karbon emisyonlarını azaltmak için ağ ve rota optimizasyonu",
+    about_sus_fuel:
+      "Alternatif yakıtlara ve enerji verimli filolara yatırım yapan taşıyıcılarla işbirliği",
+    about_sus_digital:
+      "Kağıt kullanımını ve operasyonel atığı azaltmak için süreçlerin dijitalleştirilmesi",
+    about_sus_packaging:
+      "Sürdürülebilir ambalaj ve kaynak optimizasyonu programları",
+    about_sus_standards:
+      "Küresel çevre standartlarıyla uyumlu sürekli iyileştirme",
+    about_sustain_outro:
+      "Sürdürülebilir uygulamaları lojistik operasyonlarımıza entegre ederek, müşterilerimizin verimlilik ve güvenilirliği korurken çevresel hedeflerine ulaşmalarına yardımcı oluyoruz.",
+    about_vision_title: "Vizyonumuz",
+    about_vision_text:
+      "Uluslararası ticareti ve uzun vadeli büyümeyi mümkün kılan entegre, sürdürülebilir ve yenilikçi tedarik zinciri çözümleri sunan lider bir küresel lojistik ortağı olarak tanınmak.",
+    about_mission_text:
+      "Misyonumuz basit: Hizmet verdiğimiz her müşteri için uluslararası lojistiği verimli, şeffaf ve güvenilir kılmak.",
+
+    // Stats
+    stat_countries: "Ülke",
+    stat_satisfaction: "Müşteri Memnuniyeti",
+    global_reach_tagline: "Kıtaları birleştiren, dünya genelinde teslimat",
+
+    // Services
+    services_title: "Hizmetlerimiz",
+    services_subtitle:
+      "Güvenilirlik, verimlilik ve şeffaflık ile küresel tedarik zincirlerini destekleyen entegre uluslararası taşımacılık çözümleri.",
+    service_air: "Hava Kargo",
+    service_air_desc:
+      "Uluslararası pazarlarda zamana duyarlı gönderiler için hızlı ve güvenilir hava kargo çözümleri sunuyoruz. Küresel havayolu ortaklıklarımız ve optimize edilmiş rotalarımız ile güvenli elleçleme, kısa transit süreleri ve tutarlı teslimat performansı sağlıyoruz.",
+    service_sea: "Deniz Taşımacılığı",
+    service_sea_desc:
+      "Dünya genelindeki büyük limanları birbirine bağlayan kapsamlı deniz taşımacılığı çözümleri sunuyoruz. Önde gelen taşıyıcılarla stratejik ortaklıklarımız sayesinde müşteri gereksinimlerine göre özelleştirilmiş güvenilir okyanus yük seçenekleri sunuyoruz.",
+    service_land: "Kara Taşımacılığı",
+    service_land_desc:
+      "Avrupa genelinde ve sınır ötesi güzergahlarda esnek ve verimli kargo hareketi sağlayan uluslararası karayolu taşımacılığı hizmetleri sunuyoruz. Güvenilir taşıma ortaklarımız ağı ile küresel tedarik zincirleriyle uyumlu güvenilir kara lojistiği sağlıyoruz.",
+    air_feat_1: "Öncelikli ve ekspres gönderim seçenekleri",
+    air_feat_2: "Konsolide ve direkt hava kargo çözümleri",
+    air_feat_3: "Gerçek zamanlı takip ve gönderi görünürlüğü",
+    air_feat_4: "Hassas veya yüksek değerli kargolar için özel elleçleme",
+    air_routes_title: "En Güçlü Rotalarımız",
+    air_import_title: "Türkiye'ye İthalat (IST-ADB)",
+    air_import_routes:
+      "Çin (PVG, PEK, SZX, CAN) · Japonya (HND, NRT, CTS) · Tayvan (TPE) · Kore (ICN) · Amerika (JFK, ATL, DEN) · Dubai (DXB)",
+    air_export_title: "Türkiye'den İhracat (IST-ADB)",
+    air_export_routes:
+      "Dubai (DXB, DWC) · İngiltere (BHX, LHR, MAN) · Almanya (MUC, HAM, BER, DUS) · Amerika (JFK, ATL, DEN) · Kanada (YUL, YYZ) · Kenya (NBO) · Azerbaycan (BAK) · Meksika (MEX, MTY)",
+    sea_feat_1:
+      "Tam Konteyner Yükü (FCL) ve Parsiyel Konteyner Yükü (LCL) hizmetleri",
+    sea_feat_2: "Küresel limandan limana ve kapıdan kapıya koordinasyon",
+    sea_feat_3: "Kargo planlama ve dokümantasyon yönetimi",
+    sea_feat_4: "Uluslararası ticaret güzergahlarıyla uyumlu esnek programlar",
+    road_feat_1: "Avrupa genelinde sınır ötesi yük taşımacılığı",
+    road_feat_2:
+      "Tam Kamyon Yükü (FTL) ve Parsiyel Kamyon Yükü (LTL) çözümleri",
+    road_feat_3: "Güvenilir yükleme ve teslimat koordinasyonu",
+    road_feat_4: "Entegre takip ve rota optimizasyonu",
+
+    // Quote Form
+    quote_title: "Hızlı Teklif Alın",
+    quote_subtitle: "Bilgilerinizi doldurun, 24 saat içinde size dönüş yapalım",
+    form_name: "Ad Soyad *",
+    form_email: "E-posta Adresi *",
+    form_phone: "Telefon Numarası *",
+    form_service_type: "Hizmet Türü *",
+    form_select_service: "Hizmet seçiniz",
+    form_submit: "Teklif Talebi Gönder",
+    form_success:
+      "Teşekkürler! Teklif talebiniz başarıyla gönderildi. 24 saat içinde sizinle iletişime geçeceğiz.",
+
+    // Footer
+    footer_desc:
+      "COMO Logistics, entegre tedarik zinciri çözümleri için güvenilir ortağınızdır. İşletmeleri güvenilir, verimli ve yenilikçi lojistik hizmetleriyle dünya pazarlarına bağlıyoruz.",
+    footer_quick_links: "Hızlı Bağlantılar",
+    footer_contact: "İletişim Bilgileri",
+    footer_address: "İstanbul, Türkiye",
+    footer_copyright: "© 2024 COMO Logistics. Tüm hakları saklıdır.",
+    footer_privacy: "Gizlilik Politikası",
+    footer_terms: "Kullanım Koşulları",
+
+    // Tracking Modal
+    track_title: "Kargonuzu Takip Edin",
+    track_desc:
+      "Gönderi durumunuzu gerçek zamanlı takip etmek için takip numaranızı girin.",
+    track_placeholder: "Takip numarasını girin...",
+    track_btn: "Takip Et",
+    track_info: "Takip Bilgileri",
+    track_received: "Gönderi Teslim Alındı",
+    track_received_desc: "Paket çıkış tesisinde teslim alındı",
+    track_transit: "Yolda",
+    track_transit_desc: "Paket varış noktasına doğru yolda",
+    track_delivery: "Dağıtıma Çıktı",
+    track_delivery_desc: "Paket dağıtıma çıktı",
+    track_expected: "Tahmini",
+
+    // Validation Messages
+    val_name_required: "Lütfen adınızı ve soyadınızı girin",
+    val_name_min: "İsim en az 2 karakter olmalıdır",
+    val_email_required: "Lütfen e-posta adresinizi girin",
+    val_email_invalid: "Lütfen geçerli bir e-posta adresi girin",
+    val_phone_required: "Lütfen telefon numaranızı girin",
+    val_phone_invalid: "Lütfen geçerli bir telefon numarası girin",
+    val_service_required: "Lütfen bir hizmet türü seçin",
+
+    // Notifications
+    lang_changed: "Dil Türkçe olarak değiştirildi",
+  },
 };
 
-// Current language (default: Turkish)
-let currentLang = "tr";
+// Current language (default: English)
+let currentLang = "en";
 
 // Apply translations to all elements with data-i18n attribute
 function applyLanguage(lang) {
@@ -229,10 +382,11 @@ function applyLanguage(lang) {
     if (dict[key] === undefined) return;
 
     // For elements that contain child icons, preserve them
-    const icon = el.querySelector("i.fas, i.fab");
-    if (icon) {
+    const icons = el.querySelectorAll("i.fas, i.fab");
+    if (icons.length > 0) {
+      const iconClones = Array.from(icons).map((i) => i.cloneNode(true));
       el.textContent = dict[key] + " ";
-      el.appendChild(icon);
+      iconClones.forEach((icon) => el.appendChild(icon));
     } else {
       el.textContent = dict[key];
     }
@@ -241,8 +395,8 @@ function applyLanguage(lang) {
   // Update page title
   document.title =
     lang === "tr"
-      ? "Global Logistics - İşinizi Dünyaya Bağlıyoruz"
-      : "Global Logistics - Connecting Your Business to the World";
+      ? "COMO Logistics - Entegre Lojistik ile Küresel Ticaret"
+      : "COMO Logistics - Driving Global Trade Through Integrated Logistics";
 
   // Store preference
   localStorage.setItem("preferred_lang", lang);
@@ -255,8 +409,26 @@ const navMenu = document.getElementById("navMenu");
 const quoteForm = document.getElementById("quoteForm");
 const formSuccess = document.getElementById("formSuccess");
 const trackCargoBtn = document.getElementById("trackCargoBtn");
-const getQuoteBtn = document.getElementById("getQuoteBtn");
 const languageSelect = document.getElementById("languageSelect");
+
+// About Tabs
+const tabBtns = document.querySelectorAll(".about-tabs__btn");
+const tabPanels = document.querySelectorAll(".about-tab-panel");
+
+tabBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const targetTab = btn.getAttribute("data-tab");
+
+    // Remove active from all
+    tabBtns.forEach((b) => b.classList.remove("active"));
+    tabPanels.forEach((p) => p.classList.remove("active"));
+
+    // Activate clicked tab
+    btn.classList.add("active");
+    const panel = document.getElementById(targetTab);
+    if (panel) panel.classList.add("active");
+  });
+});
 
 // Mobile Menu Toggle
 navToggle.addEventListener("click", () => {
@@ -467,10 +639,10 @@ const statsObserver = new IntersectionObserver(
   },
 );
 
-// Start observing stats container
-const statsContainer = document.querySelector(".stats-container");
-if (statsContainer) {
-  statsObserver.observe(statsContainer);
+// Start observing global reach banner for counter animation
+const globalReachBanner = document.querySelector(".global-reach-banner");
+if (globalReachBanner) {
+  statsObserver.observe(globalReachBanner);
 }
 
 // Track Cargo Button
@@ -483,20 +655,6 @@ trackCargoBtn.addEventListener("click", () => {
   setTimeout(() => {
     modal.classList.add("active");
   }, 10);
-});
-
-// Get Quote Button (scroll to quote form)
-getQuoteBtn.addEventListener("click", () => {
-  const quoteSection = document.getElementById("quote");
-  if (quoteSection) {
-    const headerHeight = header.offsetHeight;
-    const targetPosition = quoteSection.offsetTop - headerHeight - 20;
-
-    window.scrollTo({
-      top: targetPosition,
-      behavior: "smooth",
-    });
-  }
 });
 
 // Language Selector
@@ -801,10 +959,10 @@ function showNotification(message, type = "info") {
 
 // Initialize on page load
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Global Logistics website loaded successfully");
+  console.log("COMO Logistics website loaded successfully");
 
-  // Restore saved language preference, default to Turkish
-  const savedLang = localStorage.getItem("preferred_lang") || "tr";
+  // Restore saved language preference, default to English
+  const savedLang = localStorage.getItem("preferred_lang") || "en";
   languageSelect.value = savedLang;
   applyLanguage(savedLang);
 
