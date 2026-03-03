@@ -250,21 +250,10 @@ textarea:focus {
 }
 
 .logo-img {
-  height: 48px;
+  height: 56px;
   width: auto;
   object-fit: contain;
-}
-
-.logo-img--dark {
-  display: none;
-}
-
-.header--scrolled .logo-img--light {
-  display: none;
-}
-
-.header--scrolled .logo-img--dark {
-  display: block;
+  border-radius: var(--radius-md);
 }
 
 .nav__menu {
@@ -921,9 +910,10 @@ textarea:focus {
 }
 
 .footer-logo-img {
-  height: 48px;
+  height: 56px;
   width: auto;
   object-fit: contain;
+  border-radius: var(--radius-md);
   margin-bottom: var(--spacing-lg);
 }
 
@@ -1078,6 +1068,12 @@ textarea:focus {
   }
 
   .nav__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+  }
+
+  .nav__actions .btn {
     display: none;
   }
 

@@ -150,8 +150,8 @@ const translations = {
       "COMO Logistics is your trusted partner for integrated supply chain solutions. We connect businesses to markets worldwide with reliable, efficient, and innovative logistics services.",
     footer_quick_links: "Quick Links",
     footer_contact: "Contact Info",
-    footer_address: "Istanbul, Turkey",
-    footer_copyright: "© 2024 COMO Logistics. All rights reserved.",
+    footer_address: "UMURBEY MAH. TARİŞ CAD. NO: 5 C KONAK/ İZMİR",
+    footer_copyright: "© 2026 COMO Logistics. All rights reserved.",
     footer_privacy: "Privacy Policy",
     footer_terms: "Terms of Service",
 
@@ -332,8 +332,8 @@ const translations = {
       "COMO Logistics, entegre tedarik zinciri çözümleri için güvenilir ortağınızdır. İşletmeleri güvenilir, verimli ve yenilikçi lojistik hizmetleriyle dünya pazarlarına bağlıyoruz.",
     footer_quick_links: "Hızlı Bağlantılar",
     footer_contact: "İletişim Bilgileri",
-    footer_address: "İstanbul, Türkiye",
-    footer_copyright: "© 2024 COMO Logistics. Tüm hakları saklıdır.",
+    footer_address: "UMURBEY MAH. TARİŞ CAD. NO: 5 C KONAK/ İZMİR",
+    footer_copyright: "© 2026 COMO Logistics. Tüm hakları saklıdır.",
     footer_privacy: "Gizlilik Politikası",
     footer_terms: "Kullanım Koşulları",
 
